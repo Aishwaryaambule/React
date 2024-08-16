@@ -10,20 +10,19 @@ function App() {
   console.log("clicked", counter);
   counter = counter + 1;
 }
-
-  return (
+return (
    <>
-    <h1>Chai aur React</h1>
-    <h2>Counter Value: {counter}</h2>
+    <h1> Chai aur react </h1>
+    <h2> Counter Value: {counter} </h2>
 
     <button
-    onClick={addValue}
-    >Add value{counter}</button>
+    onClick= {addValue}
+    >Add value {counter} </button>
     <br />
-    <button>remove value{counter}</button>
-    <p>footer:{counter}</p>
+    <button> Remove value {counter}</button>
+    <p>footer: {counter} </p>
    </>
-  )
+  );
 }
 
-export default App
+export default App;
