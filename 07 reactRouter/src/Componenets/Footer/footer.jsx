@@ -1,7 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 
-
 export default function Footer() {
   return (
     <footer className="bg-white border-y">
@@ -155,7 +154,7 @@ export default function Footer() {
               </svg>
               <span className="sr-only">Dribbble account</span>
             </Link>
-          </div>
+          </div> 
         </div>
       </div>
     </footer>
