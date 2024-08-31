@@ -1,6 +1,5 @@
 import { Link, NavLink } from 'react-router-dom'
 
-
 export default function Header() {
   return (
     <header className="shadow sticky z-50 top-0">
@@ -58,8 +57,7 @@ export default function Header() {
                 </NavLink>
               </li>
 
-
-              <li>
+                <li>
                 <NavLink
                 to="/contact"
                   className={({isActive}) =>
